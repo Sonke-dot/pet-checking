@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoption - Pet Sanctuary</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  </div>
+
+  <header>
+    <script defer src="main.js"></script>
+    <h1>Adopt a Pet</h1>
+    <p>Give a loving home to a furry friend</p>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-left">Pet Sanctuary</div>
+    <button id="menuToggle" class="mobile-menu-btn">☰</button>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="service.html">Service</a>
+      <a href="adoption.html">Adoption</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+
+  <section class="pet-gallery">
+  <h2>Meet Our Lovely Pets</h2>
+
+  <div class="pet-grid">
+
+    <div class="pet-card">
+      <img src="leo.jpg" alt="Leo the kitten">
+      <h3>Leo</h3>
+      <p>Brave, curious, and calm. Enjoys exploring and relaxing in sunny spots.</p>
+      <button class="adopt-btn" data-pet="Leo">Adopt Leo</button>
+    </div>
+
+    <div class="pet-card">
+      <img src="bobby.jpg" alt="Bobby the puppy"> 
+      <h3>Bobby</h3>
+      <p>Energetic, friendly, and full of joy. Perfect for a loving, active family.</p>
+      <button class="adopt-btn" data-pet="Bobby">Adopt Bobby</button>
+    </div>
+
+    <div class="pet-card">
+      <img src="daisy.jpg" alt="Daisy the kitten">
+      <h3>Daisy</h3>
+      <p>Playful, cuddly, and adventurous. Loves exploring and snuggling.</p>
+      <button class="adopt-btn" data-pet="Daisy">Adopt Daisy</button>
+    </div>
+
+    <div class="pet-card">
+      <img src="Rottweiler-dog.webp" alt="Rex the Rottweiler">
+      <h3>Rex</h3>
+      <p>Strong, loyal, and gentle. Loves walks and needs a family with space.</p>
+      <button class="adopt-btn" data-pet="Rex">Adopt Rex</button>
+    </div>
+
+    <div class="pet-card">
+      <img src="Rabbit.jpeg" alt="Hazel the rabbit"> 
+      <h3>Hazel</h3>
+      <p>Sweet and calm. Perfect for someone wanting a gentle, loving companion.</p>
+      <button class="adopt-btn" data-pet="Hazel">Adopt Hazel</button>
+    </div>
+
+    <div class="pet-card">
+      <img src="judy.jpg" alt=" Judy the rabbit"> 
+      <h3>Judy</h3>
+      <p>Sweet and calm. Perfect for someone wanting a gentle, loving companion.</p>
+      <button class="adopt-btn" data-pet="Judy">Adopt Judy</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================= ADOPTION FORM ======================= -->
+<section class="adoption-section">
+  <h2>Pet Adoption Application</h2>
+
+  <form class="adoption-form">
+
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label>Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Email Address:</label>
+      <input type="email" id="email" required>
+
+      <label>Phone Number:</label>
+      <input type="tel" id="phone" required>
+
+      <label>Home Address:</label>
+      <input type="text" id="address" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pet Selection</legend>
+
+      <label>Type of Pet:</label>
+      <select id="petType" required>
+        <option value="">-- Select Type --</option>
+        <option value="Dog">Dog</option>
+        <option value="Cat">Cat</option>
+        <option value="Rabbit">Rabbit</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label>Preferred Pet:</label>
+      <input type="text" id="petName" placeholder="Chosen pet's name">
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Lifestyle</legend>
+
+      <label>Do you have previous pet experience?</label>
+      <select id="experience" required>
+        <option value="">-- Select --</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+
+      <label>Home Environment:</label>
+      <select id="homeType" required>
+        <option value="">-- Select --</option>
+        <option value="House with Yard">House with Yard</option>
+        <option value="House without Yard">House without Yard</option>
+        <option value="Apartment">Apartment</option>
+      </select>
+
+      <label>Why do you want to adopt?</label>
+      <textarea id="reason" rows="7" required></textarea>
+    </fieldset>
+
+    <button type="submit" class="submit-btn">Submit Application</button>
+
+
+ 
+
+
+  <footer>
+    <p>&copy; 2025 Pet Sanctuary | Contact us: info@petsanctuary.org | 012-345-6789</p>
+  </footer>
+
+</body>
+</html>
